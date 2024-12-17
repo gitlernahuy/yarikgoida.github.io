@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Пример сайта Microsoft</title>
+</head>
+<body>
+    <header>
+        <h1>ТЕРРАКТ</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">ГОЙДА</a></li>
+                <li><a href="#about">СВО</a></li>
+                <li><a href="#products">НИГЕРЫ</a></li>
+                <li><a href="#contact">ЧЕРНОРУСЫ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Добро пожаловать в СВО!</h2>
+            <p>Развивайте СВОи мозги.</p>
+            <button id="learnMore">Узнать больше</button>
+        </section>
+        <section id="about">
+            <h2>О нас</h2>
+            <p>ГИТЛЕР — ведущая компания в области технологий.</p>
+        </section>
+        <section id="products">
+            <h2>Продукты</h2>
+            <p>Изучите наш ассортимент программного обеспечения и услуг.</p>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Свяжитесь с нами для получения дополнительной информации.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 SVO. Все права защищены.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+header {
+    background-color: #0078d7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #0078d7;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0078d7;
+    color: white;
+}
+
+</style>
+<script>
+document.getElementById("learnMore").addEventListener("click", function() {
+    alert("Спасибо за интерес! Посетите наш сайт для больше информации.");
+});
+
+</script>
